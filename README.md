@@ -28,13 +28,13 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>FoodCart</title>
-<meta name="viewport" content="width=960" />
-<style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <title>FoodCart</title>
+    <meta name="viewport" content="width=960" />
+    <style>
     /* Colors */
     body {
         background: #f7f4ed;
@@ -265,25 +265,25 @@ Publish the website in the given URL.
         height: 1.3em;
         margin-right: 15px;
     }
-</style>
-</head>
-<body>
+    </style>
+    </head>
+    <body>
 
-<div class="header">
+    <div class="header">
     <img src="5.jpg" alt="FoodCart Logo" class="header-logo" width="60" height="60" />
     <span class="header-title">FOODCART</span>
-</div>
-<nav>
+    </div>
+    <nav>
     <ul>
         <li><a href="#" class="active" onclick="showTab('home')">Home</a></li>
         <li><a href="#" onclick="showTab('menu')">Menu</a></li>
         <li><a href="#" onclick="showTab('admin')">Administration</a></li>
         <li><a href="#" onclick="showTab('contact')">Contact Us</a></li>
     </ul>
-</nav>
+    </nav>
 
 <!-- HOME PAGE -->
-<section id="homeTab">
+    <section id="homeTab">
     <div class="banner">
         <img src="4.jpg" alt="Featuring Today's Specials" width="100%" height="180" />
         <div class="banner-content">
@@ -312,10 +312,10 @@ Publish the website in the given URL.
             <b>Sat - Sun:</b> 12pm - 11pm
         </div>
     </div>
-</section>
+    </section>
 
 <!-- MENU PAGE -->
-<section id="menuTab" style="display:none;">
+    <section id="menuTab" style="display:none;">
     <h2 style="text-align:center; margin:34px 0 20px 0;color:#404040;">Our Menu</h2>
     <div class="menu-section">
         <div class="menu-item"><img src="" alt="Grilled Chicken" width="200" height="92" /><h4>Grilled Chicken Salad</h4><p>Marinated chicken with mixed greens.</p></div>
@@ -334,7 +334,7 @@ Publish the website in the given URL.
 </section>
 
 <!-- ADMIN PAGE -->
-<section id="adminTab" style="display:none;">
+    <section id="adminTab" style="display:none;">
     <h2 style="text-align:center; margin:34px 0 24px;color:#404040;">Administration Team</h2>
     <div class="admin-section">
         <div class="admin-card">
@@ -368,10 +368,10 @@ Publish the website in the given URL.
             <p>Customer Relations</p>
         </div>
     </div>
-</section>
+    </section>
 
 <!-- CONTACT PAGE -->
-<section id="contactTab" style="display:none;">
+    <section id="contactTab" style="display:none;">
     <div class="contact-block">
         <h2>Contact Us</h2>
         <p>
@@ -383,13 +383,13 @@ Publish the website in the given URL.
         For reservations or inquiries, please call or email us anytime. We look forward to serving you!
         </p>
     </div>
-</section>
+    </section>
 
-<footer class="footer">
+    <footer class="footer">
     FOODCART developed by R.Sairam
-</footer>
+    </footer>
 
-<script>
+    <script>
     // Tab navigation script
     function showTab(tabName) {
         const tabs = ['homeTab','menuTab','adminTab','contactTab'];
@@ -409,10 +409,10 @@ Publish the website in the given URL.
     }
     // show home by default
     showTab('home');
-</script>
+    </script>
 
-</body>
-</html>
+    </body>
+    </html>
 
 
 
