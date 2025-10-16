@@ -331,7 +331,7 @@ Publish the website in the given URL.
         <div class="menu-item"><img src="" alt="Chocolate Cake" width="200" height="92" /><h4>Chocolate Cake</h4><p>Rich and moist with ganache.</p></div>
         <div class="menu-item"><img src="" alt="Vanilla Ice Cream" width="200" height="92" /><h4>Vanilla Ice Cream</h4><p>Creamy and classic frozen dessert.</p></div>
     </div>
-</section>
+    </section>
 
 <!-- ADMIN PAGE -->
     <section id="adminTab" style="display:none;">
@@ -417,7 +417,7 @@ Publish the website in the given URL.
 
 
 ## OUTPUT:
-
+<img width="1280" height="644" alt="image" src="https://github.com/user-attachments/assets/7c76eed9-5761-45b6-9d59-62f6929a9e5b" />
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
